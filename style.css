@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color:rgb(248, 248, 245) ;
+}
+.navbar {
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    height: 80px;
+
+}
+.logo {
+    width: 140px;
+    height: 120px;
+    margin: 0;
+    margin-left: 90px;
+    z-index: 2;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 60px;
+    position: relative;
+    left: 100px;
+    
+}
+.logosearch{
+    width: 27px;
+    height: 27px;
+    margin: 0;
+    margin-left: 1000px;
+    top: 35px;
+    position: absolute;
+}
+.logoprofil{
+    width: 27px;
+    height: 27px;
+    margin: 0;
+    margin-left: 950px;
+    top: 35px;
+    position: absolute;
+    
+}
+.logosepet{
+    width: 27px;
+    height: 27px;
+    margin: 0;
+    top: 35px;
+    margin-left: 900px;
+    position: absolute;
+}
+.navbar li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight:600;
+    position:relative;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+   text-decoration-color: rgb(231, 64, 64);
+}
+.entry{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+
+.entry .title span{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(36, 28, 28);
+    animation: animasyon 10s ease-in-out;
+    font-size: 5rem;
+    font-weight: 600;
+    top: 300px;
+    left: 310px;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    position: absolute;
+    animation-fill-mode: backwards;
+}
+.entry .title span:nth-child(2){
+    animation-delay: 0.5s;
+    color: rgb(36, 28, 28);
+    font-size: 3rem;
+    font-weight: 600;
+    position: absolute;
+    top: 400px;
+    left: 520px;
+    text-shadow: 0 10px 10px rgba(0,0,0,0.25);
+}
+@keyframes animasyon{
+    0% {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    15% {
+        transform: translateX(0px);
+        opacity: 1;     
+    }
+}
+
+.girl1{
+    width: 100%;
+    position: relative;
+}
+.sis1{
+    left: 670px;
+    width: 400px;
+    height: 620px;
+    opacity: 0.9;
+    position: absolute;
+}
+.sis2{
+    
+    left: 0px;
+    width: 420px;
+    height: 635px;
+    opacity: 0.9;
+    position:absolute;
+    z-index: 1;
+}
+
+.Hakkımızdabslk{
+    margin-top: 125px;
+    margin-left: 200px;
+    font-size: 30px;
+    font-weight:bold;
+}
+.container{
+    background-color:rgb(248, 248, 245) ;
+    position: absolute;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 35px;
+
+}
+.container2{
+    background-color:rgb(248, 248, 245) ;
+    position: absolute;
+    left:200px;
+    top:500px
+    
+}
+.parfüm{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50px;
+    left: 150px;
+    top: 150px;
+    transition: 0.5s;
+    z-index: 2;
+}
+.doğalürünler{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50px;
+    left: 525px;
+    top: 940px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+    z-index: 2;
+}
+.aksesuar{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50px;
+    left: 150px;
+    top: 940px;
+    transition: 0.5s;
+    z-index: 2;
+}
+.vücutbakım{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50px;
+    left: 150px;
+    top: 545px;
+    transition: 0.5s;
+    z-index: 2;
+}
+.erkekbakım{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50px;
+    left: 525px;
+    top: 545px;
+    transition: 0.5s;
+    z-index: 2;
+}
+.elektronikürünler{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50px;
+    right: 150px;
+    top: 545px;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.kampanyalar{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50px;
+    right: 150px;
+    top: 940px;
+    transition: 0.5s;
+    z-index: 2;
+}
+.saçbakım{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50px;
+    right: 150px;
+    top: 150px;
+    transition: 0.5s;
+    z-index: 2;
+}
+.makyaj{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50px;
+    left: 525px;
+    top: 150px;;
+    transition: 0.5s;
+    z-index: 2;
+}
+.makyaj:hover{
+    transform: scale(1.1);
+}
+.parfüm:hover{
+    transform: scale(1.1);
+}
+.doğalürünler:hover{
+    transform: scale(1.1);
+}
+.saçbakım:hover{
+    transform: scale(1.1);
+}
+.vücutbakım:hover{
+    transform: scale(1.1);
+}
+.erkekbakım:hover{
+    transform: scale(1.1);
+}
+.kampanyalar:hover{
+    transform: scale(1.1);
+}
+.elektronikürünler:hover{
+    transform: scale(1.1);
+}
+.aksesuar:hover{
+    transform: scale(1.1);
+}
+
+.sağlıklıyaşam1{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 950px;
+    top: 150px;;
+ 
+}
+.sağlıklıyaşam2{
+    width: 250px;
+    height: 250px;
+    position: absolute;    
+    left: 150px;
+    top: 450px;;
+   
+}
+.sağlıklıyaşam3{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 950px;
+    top: 750px;;
+}
+.sağlıklıyaşamcontainer{
+    background-color:rgb(248, 248, 245) ;
+    position: absolute;
+    margin-left: 150px;
+    margin-right: 450px;
+    margin-top: 100px;
+}
+.sağlıklıyaşamcontainer2{
+    background-color:rgb(248, 248, 245) ;
+    position: absolute;
+    margin-left: 450px;
+    margin-right: 150px;
+    margin-top: 425px;
+}
+.sağlıklıyaşamcontainer3{
+    background-color:rgb(248, 248, 245) ;
+    position: absolute;
+    margin-left: 150px;
+    margin-right: 450px;
+    margin-top: 720px;
+}
+.containeriletişim {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 500 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+ 
+#contact {
+    background: #F9F9F9;
+    padding:40px;
+    margin: 65px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+ 
+#contact h2 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+ 
+.form-control{
+    border: none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+ 
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.4s ease-in-out;
+    -moz-transition: border-color 0.4s ease-in-out;
+    transition: border-color 0.4s ease-in-out;
+    border: 1px solid #aaa;
+}
+ 
+#contact textarea {
+    height: 120px;
+    max-width: 100%;
+    resize: none;
+}
+ 
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #79A7A8;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+ 
+#contact button[type="submit"]:hover {
+    background: #355C7D;
+    -webkit-transition: background 0.4s ease-in-out;
+    -moz-transition: background 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+}
+ 
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+ 
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+ 
+.twitterlogo{
+    width: 29px;
+    height: 29px;
+    margin: 0;
+    margin-left: 705px;
+    top: 700px;
+    position: absolute;
+
+}
+.youtubelogo{
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    margin-left: 780px;
+    top: 699px;
+    position: absolute;
+
+}
+.facebooklogo{
+    width: 33px;
+    height: 33px;
+    margin: 0;
+    margin-left: 625px;
+    top: 698px;
+    position: absolute;
+
+}
+.instagramlogo{
+    width: 23px;
+    height: 23px;
+    margin: 0;
+    margin-left: 550px;
+    top: 703px;
+    position: absolute;
+
+}

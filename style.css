@@ -162,7 +162,7 @@ body{
     height: 300px;
     position: absolute;
     border-radius: 50px;
-    left: 525px;
+    left: 610px;
     top: 940px;
     margin-bottom: 5px;
     transition: 0.5s;
@@ -193,7 +193,7 @@ body{
     height: 300px;
     position: absolute;
     border-radius: 50px;
-    left: 525px;
+    left: 610px;
     top: 545px;
     transition: 0.5s;
     z-index: 2;
@@ -234,7 +234,7 @@ body{
     height: 300px;
     position: absolute;
     border-radius: 50px;
-    left: 525px;
+    left: 610px;
     top: 150px;;
     transition: 0.5s;
     z-index: 2;
@@ -271,7 +271,7 @@ body{
     width: 250px;
     height: 250px;
     position: absolute;
-    left: 950px;
+    left: 1150px;
     top: 150px;;
  
 }
@@ -287,7 +287,7 @@ body{
     width: 250px;
     height: 250px;
     position: absolute;
-    left: 950px;
+    left: 1150px;
     top: 750px;;
 }
 .sağlıklıyaşamcontainer{
@@ -404,7 +404,7 @@ body{
     width: 29px;
     height: 29px;
     margin: 0;
-    margin-left: 705px;
+    margin-left: 790px;
     top: 700px;
     position: absolute;
 
@@ -413,7 +413,7 @@ body{
     width: 32px;
     height: 32px;
     margin: 0;
-    margin-left: 780px;
+    margin-left: 850px;
     top: 699px;
     position: absolute;
 
@@ -422,7 +422,7 @@ body{
     width: 33px;
     height: 33px;
     margin: 0;
-    margin-left: 625px;
+    margin-left: 710px;
     top: 698px;
     position: absolute;
 
@@ -431,7 +431,7 @@ body{
     width: 23px;
     height: 23px;
     margin: 0;
-    margin-left: 550px;
+    margin-left: 650px;
     top: 703px;
     position: absolute;
 
